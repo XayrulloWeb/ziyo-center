@@ -1,9 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import HomeBanner from "./HomeBanner";
 import img from "../Images/1.jpg"
+import {useLocation} from 'react-router-dom'
+import {useDispatch, useSelector} from "react-redux";
+import {getJournal} from "../Store/Reducers/Reducer_journal";
 
 
 function Journals() {
+
+    const dispatch = useDispatch()
+    const location = useLocation()
+    const reduserJournals = useSelector(state => state.homejournal.journal)
+
+    useEffect(() => {
+        dispatch(getJournal(location.state.id))
+    }, [location])
+
+console.log(location.state.item)
+
     return (
         <div className="journals">
             <div className="container">

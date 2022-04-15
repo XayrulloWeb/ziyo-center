@@ -10,10 +10,10 @@ import {useDispatch, useSelector} from "react-redux";
 function HomeJournale(props) {
     const dispatch = useDispatch()
     const location = useHistory();
-    const reduserJournale = useSelector(state => state.homejournal.reduserJournale)
+    const reduserJournale = useSelector(state => state.homejournal.journals)
 
-    const SetProduct = (id) => {
-        location.push('/journals', {state: { id: id}})
+    const SetProduct = (item) => {
+        location.push('/journale', { item})
     }
 
     useEffect(() =>{
@@ -51,15 +51,15 @@ function HomeJournale(props) {
                             <h3>Jurnallar</h3>
                         </div>
                             {
-                                reduserJournale.map(item=> {
+                                reduserJournale?.map(item=> {
                                     return(
-                                        <div  className="home_journale-left_books-start" key={item.id}>
+                                        <div  className="home_journale-left_books-start" key={item?.id}>
                                             <div className="home_journale-left_book">
-                                                <img src={item.img} alt="book" className='book'/>
+                                                <img src={item?.img} alt="book" className='book'/>
                                             </div>
                                             <div className="home_journale-left_description-start">
                                                 <div className="home_journale-left_description-generel_text">
-                                                    <h3>{item.generel_text}</h3>
+                                                    <h3>{item?.generel_text}</h3>
                                                 </div>
 
                                                 <div className="home_journale-left_description-text">
@@ -67,7 +67,7 @@ function HomeJournale(props) {
                                                 </div>
 
                                                 <div className="home_journale-left_description-btn">
-                                                    <button> <Link to={"/journale"}> Посмотреть журнал</Link> </button>
+                                                    <button onClick={() => SetProduct(item)}>  Посмотреть журнал</button>
                                                 </div>
                                             </div>
                                         </div>

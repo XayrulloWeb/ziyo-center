@@ -9,10 +9,6 @@ function Home(props) {
         <div className="home">
                 <HomeBanner/>
                 <HomeJournale/>
-
-
-
-
         </div>
     );
 }
