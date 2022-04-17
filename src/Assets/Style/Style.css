@@ -430,7 +430,7 @@ a{
     margin-top: 30px;
 }
 .home_journale-left_book{
-
+    height: 310px;
     width: 30%;
     display: flex;
     justify-content: center;

@@ -64,7 +64,7 @@ function HomeJournale(props) {
                                                 </div>
 
                                                 <div className="home_journale-left_description-btn">
-                                                    <button onClick={() => SetProduct(item)}>  Посмотреть журнал</button>
+                                                    <button onClick={() => SetProduct(item)}>Jurnalni Ko'rish</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,14 +75,13 @@ function HomeJournale(props) {
 
                     <div className="home_journale-right">
                         <div className="home_journale-right_top">
-                            <button>Требование</button>
-                            <button>Редакционный совет</button>
-                            <button>Политика</button>
-                            <button>Отправить Материал</button>
+                            <button>Sertifikatlar</button>
+                            <button>Maqola Yuborish</button>
+
                         </div>
                         <div className="home_journale-right_bottom">
                             <div className="home_journale-right_text">
-                                <h3>Индексация</h3>
+                                <h3>Homiylar</h3>
                             </div>
 
                             <div className="home_journale-right_sponsor">
