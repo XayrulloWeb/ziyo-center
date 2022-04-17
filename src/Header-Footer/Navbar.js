@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
-import "../Style/Style.css"
-import logo from "../Images/IMG_20220403_222310_225.png"
+import "../Assets/Style/Style.css"
+import logo from "../Assets/Images/IMG_20220403_222310_225.png"
 
 function Navbar(props) {
     const [toggleMenu, setToogleMenu] = useState(false)

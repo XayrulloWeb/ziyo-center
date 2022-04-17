@@ -1,7 +1,7 @@
-import book1 from "../../Images/book1.png";
-import book3 from "../../Images/book3.png";
-import book2 from "../../Images/book2.png";
-import {getItem} from "../../helpers";
+import book1 from "../../Assets/Images/book1.png";
+import book3 from "../../Assets/Images/book3.png";
+import book2 from "../../Assets/Images/book2.png";
+import {getItem} from "../../Helpers/helpers";
 
 const set_journale = "set_journale"
 const GET_JOURNAL = 'GET_JOURNAL'
@@ -11,7 +11,7 @@ const redusjournale =  {
         {
             id:1,
             paragraph: "O‘zbekiston Respublikasi Prezidentining 2020-yil 29-oktabrda qabul qilingan “Ilm-fanni 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida”gi Farmonida ko‘zda tutilgan vazifalar ijrosini ta’minlash maqsadida tashkil etilgan bo‘lib, aniq, tabiiy va texnika fan ixtisosliklari bo‘yicha maqolalarni qabul qiladi. Jurnalning davriyligi 1 oyni tashkil etadi. Jurnalda keng ilmiy jamoatchilikning tadqiqot natijalari e’lon qilinadi. Mazkur jurnal bir nechta xalqaro bazalarda indeksiyalanadi.",
-            generel_text: "“O‘zbekistonda ilmiy tadqiqotlar va innovatsiyalar” ilmiy jurnali",
+            generel_text: "O‘zbekistonda ilmiy tadqiqotlar va innovatsiyalar” ilmiy jurnali",
             img: book1
         },
         {

@@ -6,4 +6,5 @@ const rootReducer = combineReducers({
     homejournal: Reducer_journal
 })
 
+
 export const store = createStore(rootReducer,applyMiddleware(thunk))

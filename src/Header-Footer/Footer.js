@@ -1,12 +1,12 @@
 import React from 'react';
-import facebook from "./../Images/facebook.png"
-import ini from "./../Images/in.png"
-import insta from "./../Images/insta.png"
-import twiter from "./../Images/twiter.png"
-import icon_right from "../Images/icon_right.png"
-import phone from "../Images/phone.svg"
-import email from "../Images/email.svg"
-import zemlya from "../Images/zemlya.svg"
+import facebook from "../Assets/Images/facebook.png"
+import ini from "../Assets/Images/in.png"
+import insta from "../Assets/Images/insta.png"
+import twiter from "../Assets/Images/twiter.png"
+import icon_right from "../Assets/Images/icon_right.png"
+import phone from "../Assets/Images/phone.svg"
+import email from "../Assets/Images/email.svg"
+import zemlya from "../Assets/Images/zemlya.svg"
 import {Link} from "react-router-dom";
 
 

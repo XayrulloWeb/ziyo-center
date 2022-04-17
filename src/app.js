@@ -1,5 +1,5 @@
 import React from 'react'
-import routes from "./routes"
+import routes from "./Helpers/routes"
 import {Switch, Route ,Redirect} from "react-router-dom"
 import Navbar from "./Header-Footer/Navbar/Navbar";
 import Footer from "./Header-Footer/Footer";
