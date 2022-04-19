@@ -227,15 +227,17 @@ a{
         }
     }
     .home_banner-start img{
-        display: block;
-        height: 1000px;
+        height: 100%;
         width: 100%;
+        vertical-align: middle;
     }
     .home_banner-start{
-        height: 1100px;
+        height: 100vh;
+        margin-bottom: 50px;
     }
     .home_banner-about{
         display: flex;
+        height: 100%;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -368,6 +370,10 @@ a{
     flex-direction: column;
     align-items: center;
 }
+.home_journale-right_button-one{
+    margin-bottom: 10px;
+
+}
 .home_journale-right_top button{
     width: 260px;
     height: 50px;
@@ -489,6 +495,7 @@ a{
         width: 200px;
     }
 }
+
 @media(max-width: 1050px){
     .home_journale-start{
         display: flex;
@@ -504,9 +511,7 @@ a{
     .home_jorunale-left{
         margin-bottom: 20px;
     }
-    .home_journale-right_text h3{
-        transform: rotate(-90deg);
-    }
+
 }
 @media (max-width: 750px) {
     .home_journale-left_book{
@@ -535,6 +540,16 @@ a{
     .home_journale-right_text{
         display: none;
     }
+}
+@media(max-width: 1000px){
+    .home_journale-right_top button, .home_journale-right_button-one, .home_journale-right_button-two{
+        width: 100%;
+    }
+    .home_journale-right{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /*C O N T A C T -----  S T A R T*/
@@ -662,6 +677,7 @@ a{
     }
     .footer_left{
         width: 45%;
+        padding-left: 15px;
     }
     .footer_right{
         width: 50%;
@@ -731,6 +747,10 @@ a{
     .footer_right-links, .footer_right-support{
         margin-right: 90px;
         margin-bottom: 25px;
+
+    }
+    .footer_right-links{
+        width: 100%;
     }
     .footer_fight-links-text h3, .footer_right-supports_generel h3, .footer_right-contact_generel h3{
         font-style: normal;
@@ -1028,7 +1048,7 @@ a{
 
 @media(max-width: 1130px){
     .home_journale-right_top button{
-        width: 200px;
+            width: 200px;
     }
 }
 @media(max-width: 1050px){
@@ -1037,18 +1057,23 @@ a{
         flex-direction: column;
 
     }
+    .home_journale-right_top{
+        width: 100%;
+    }
     .home_journale-right{
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
     .home_jorunale-left{
         margin-bottom: 20px;
     }
-    .home_journale-right_text h3{
-        transform: rotate(-90deg);
+    .home_journale-right_top button{
+        width: 100%;
     }
+
+
 }
 @media (max-width: 750px) {
     .home_journale-left_book{

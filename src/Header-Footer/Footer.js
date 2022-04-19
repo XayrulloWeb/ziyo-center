@@ -18,7 +18,8 @@ function Footer(props) {
                     <div className="footer_left">
                         <div className="footer_left-top">
                             <h3>Ziyo Scientific Center</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipis. <br/> cing elit Amet vestibulum euismod nullam the <br/> elementum. Urna, posuere nisi sit gravid.</p>
+                            <p>
+                                Bu qiyin mahorat. U adabiyotlarni o'qish, <br/> nutq so'zlash, odamlar bilan muloqot qilish, <br/> nutq  rivojlantirish mashqlari orqali shakllanadi.</p>
                         </div>
                         <div className="footer_left-bottom">
                             <div className="footer_left-bottom-text">

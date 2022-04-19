@@ -11,8 +11,9 @@ const Navbar = () => {
             <img src={logo} className="nav-logo"/>
 
         </Link>
+
           <div className={`nav-items ${isOpen && "open"}`}>
-     
+
               <Link className='links' to={'/'}>Bosh Sahifa</Link>
               <Link className='links' to={'/'}>Umumiy ma'lumotlar</Link>
               <Link className='links' to={'/'}>Jurnallar haqida</Link>

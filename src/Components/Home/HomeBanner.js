@@ -16,7 +16,8 @@ function HomeBanner(props) {
                     </div>
 
                     <div className="home_banner-about_paragraph">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere <br/> nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.</p>
+                        <p>
+                            Bu qiyin mahorat. U adabiyotlarni o'qish, nutq so'zlash, odamlar bilan muloqot qilish, nutq va diksiyani rivojlantirish mashqlari orqali shakllanadi.</p>
                     </div>
 
                     <div className="home_banner-about_btn">

@@ -75,8 +75,14 @@ function HomeJournale(props) {
 
                     <div className="home_journale-right">
                         <div className="home_journale-right_top">
-                            <button>Sertifikatlar</button>
-                            <button>Maqola Yuborish</button>
+                            <div className="home_journale-right_button-one">
+                                <button>Sertifikatlar</button>
+
+                            </div>
+                            <a href="https://t.me/ziyoscientific_group" className="home_journale-right_button-two">
+                                <button>Maqola Yuborish</button>
+
+                            </a>
 
                         </div>
                         <div className="home_journale-right_bottom">
