@@ -83,7 +83,7 @@ function Footer(props) {
                                     </div>
                                     <div className="footer_right-contact_text-block-two">
                                         <img src={phone} alt='phone_icon' />
-                                        <p className="footer_links-color">+998(99)347-36-05</p>
+                                        <p className="footer_links-color"><a href="tel:+9989993473605">+998(99)347-36-05</a> </p>
                                     </div>
                                     <div className="footer_right-contact_text-block-three">
                                         <img src={email} alt='email_icon' />

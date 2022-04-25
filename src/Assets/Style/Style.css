@@ -1106,3 +1106,9 @@ a{
         display: none;
     }
 }
+
+@media(max-width: 1050px){
+    .home_journale-right_button-one button{
+        width: 100%;
+    }
+}
