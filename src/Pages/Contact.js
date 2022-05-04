@@ -5,7 +5,7 @@ function Contact(props) {
         <div className="contact">
                 <div className="contact_us">
                     <div className="contact_us_right">
-                        <form method="post">
+                        <form className="contact_post" method="post">
                             <label className="margin_contact " htmlFor='fname'>Fullname</label>
                             <input className="input_contact focus_contact" name="name"  type="text" id='fname' placeholder="Sirojbek Allanazarov"/>
                             <label className="margin_contact " htmlFor='email'>Email</label>

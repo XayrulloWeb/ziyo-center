@@ -45,26 +45,26 @@ function Footer(props) {
                                 </div>
 
                                 <div className="footer_right-links_generel">
-                                    <div className="footer_right-link_generel">
+                                    <Link to={"/"} className="footer_right-link_generel">
                                         <img src={icon_right} alt="icon_right"/>
                                         <Link className="footer_links-color" to={"/"}>Bosh Sahifa</Link>
-                                    </div>
-                                    <div className="footer_right-link_generel">
+                                    </Link>
+                                    <Link to={"/"} className="footer_right-link_generel">
                                         <img src={icon_right} alt="icon_right"/>
                                         <Link className="footer_links-color" to={"/"}>Jurnallar Haqida</Link>
-                                    </div>
-                                    <div className="footer_right-link_generel">
+                                    </Link>
+                                    <Link to={"/"} className="footer_right-link_generel">
                                         <img src={icon_right} alt="icon_right"/>
                                         <Link className="footer_links-color" to={"/"}>Arxiv</Link>
-                                    </div>
-                                    <div className="footer_right-link_generel">
+                                    </Link>
+                                    <Link to={"/"} className="footer_right-link_generel">
                                         <img src={icon_right} alt="icon_right"/>
                                         <Link className="footer_links-color" to={"/"}>Tahririyat Azolari</Link>
-                                    </div>
-                                    <div className="footer_right-link_generel">
+                                    </Link>
+                                    <Link to={"/"} className="footer_right-link_generel">
                                         <img src={icon_right} alt="icon_right"/>
                                         <Link className="footer_links-color" to={"/"}>Contact</Link>
-                                    </div>
+                                    </Link>
 
                                 </div>
 

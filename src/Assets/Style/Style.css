@@ -243,6 +243,12 @@ a{
         flex-direction: column;
         transform: translate(0, -700px);
     }
+
+    @media(max-width: 1350px){
+        .home_banner-about{
+            transform: translate(0,-500px);
+        }
+    }
     .home_banner-about_text p{
         font-style: normal;
         font-weight: bold;
@@ -659,6 +665,22 @@ a{
     transition: .3s ease-in;
     background: #00004a;
     color: white;
+}
+@media(max-width: 530px){
+    .input_contact{
+        width: 300px;
+    }
+    .contact_post{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input_message{
+        width: 200px;
+        height: 170px;
+    }
 }
 /*C O N T A C T -----  E N D */
 
